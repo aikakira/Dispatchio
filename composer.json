@@ -1,0 +1,19 @@
+{
+    "name": "g4m/dispatchio",
+    "description": "Dispatch system used for handling consignments to couriers",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^9.1"
+    },
+    "authors": [
+        {
+            "name": "Kira",
+            "email": "aikakira@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "g4m\\":"src/"
+        }
+    }
+}
